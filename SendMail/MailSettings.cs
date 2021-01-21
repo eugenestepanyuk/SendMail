@@ -10,7 +10,7 @@ namespace SendMail
 {
     [Serializable]
 
-    static class MailSettings
+    public static class MailSettings
     {
         public static string Email { get; set; }
         public static string SenderName { get; set; }
@@ -20,6 +20,22 @@ namespace SendMail
         public static string ReceivingMail { get; set; }
         public static string ReceivingLogin { get; set; }
         public static string ReceivingPassword { get; set; }
+
+        public static void ShowSettingsMale()
+        {
+            SettingsMale settingsMale = new SettingsMale();
+            settingsMale.ShowDialog();
+        }
+        public static void ShowCreateMale()
+        {
+            CreateMale createMale = new CreateMale();
+            createMale.ShowDialog();
+        }
+        public static void ShowGetMale()
+        {
+            GetMale getMale = new GetMale();
+            getMale.ShowDialog();
+        }
 
         //public static MailSettings(string email, string senderName)
         //{

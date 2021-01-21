@@ -1,5 +1,3 @@
-D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\SendMail.exe
-D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\SendMail.pdb
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.csprojAssemblyReference.cache
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.Properties.Resources.resources
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.csproj.GenerateResource.cache
@@ -7,9 +5,15 @@ D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.csproj.CoreCompil
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.exe
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.pdb
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.Form1.resources
-D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\Mail.dll
-D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\Mail.xml
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.csproj.CopyComplete
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.CreateMale.resources
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.SettingsMale.resources
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.GetMale.resources
+D:\Projects Visual Studio\SendMail\SendMail\SendMail.exe
+D:\Projects Visual Studio\SendMail\SendMail\SendMail.pdb
+D:\Projects Visual Studio\SendMail\SendMail\Mail.dll
+D:\Projects Visual Studio\SendMail\SendMail\Mail.xml
+D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\SendMail.exe
+D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\SendMail.pdb
+D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\Mail.dll
+D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\Mail.xml

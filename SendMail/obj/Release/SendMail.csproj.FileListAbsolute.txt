@@ -1,0 +1,16 @@
+D:\Projects Visual Studio\Библиотеки\SendMail.dll
+D:\Projects Visual Studio\Библиотеки\SendMail.pdb
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.CreateMale.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.Form1.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.GetMale.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.Properties.Resources.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.SettingsMale.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.csproj.GenerateResource.cache
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.csproj.CoreCompileInputs.cache
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.csproj.CopyComplete
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.dll
+D:\Projects Visual Studio\SendMail\SendMail\obj\Release\SendMail.pdb
+D:\Projects Visual Studio\Библиотеки\SendMail\SendMail.dll
+D:\Projects Visual Studio\Библиотеки\SendMail\SendMail.pdb
+D:\Projects Visual Studio\dll\SendMail\SendMail.dll
+D:\Projects Visual Studio\dll\SendMail\SendMail.pdb

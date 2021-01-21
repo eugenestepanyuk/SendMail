@@ -10,36 +10,19 @@ namespace SendMail
             InitializeComponent();
         }
 
-        public void ShowSettingsMale ()
-        {
-            SettingsMale settingsMale = new SettingsMale();
-            settingsMale.ShowDialog();
-        }
-        public void ShowCreateMale()
-        {
-            CreateMale createMale = new CreateMale();
-            createMale.ShowDialog();
-        }
-        public void ShowGetMale()
-        {
-            GetMale getMale = new GetMale();
-            getMale.ShowDialog();
-        }
-
         private void settingsMaleBtn_Click(object sender, EventArgs e)
         {
-            ShowSettingsMale();
+            MailSettings.ShowSettingsMale();
         }
 
         private void createMaleBtn_Click(object sender, EventArgs e)
         {
-            ShowCreateMale();
+            MailSettings.ShowCreateMale();
         }
 
         private void getMaleBtn_Click(object sender, EventArgs e)
         {
-            GetMale getMale = new GetMale();
-            getMale.ShowDialog();
+            MailSettings.ShowGetMale();
         }
     }
 }

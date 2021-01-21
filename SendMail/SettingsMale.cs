@@ -69,40 +69,31 @@ namespace SendMail
             {
                 MailBuilder builder = new MailBuilder();
                 builder.Subject = String.Format("Тестовий лист - {0}", senderNameCmb.Text);
-                builder.To.Add(new MailGroup("Group2"));
-                builder.From.Add(new MailBox(emailTxb.Text));
+                builder.From.Add(new MailBox(emailTxb.Text, emailTxb.Text));
                 builder.To.Add(new MailBox(emailTxb.Text));
                 builder.Text = "Це електронний лист із простим текстом";
-                //OpenFileDialog fileDialog = new OpenFileDialog();
-                //if (fileDialog.ShowDialog() == DialogResult.OK)
-                //    builder.AddAttachment(fileDialog.FileName);
+
                 IMail email = builder.Create();
 
-                var a = new MailGroup("Group1").Addresses;
-                foreach (MailBox mailbox in email.To.OfType<MailBox>())
+                using (Smtp smtp = new Smtp())
                 {
-                    MessageBox.Show(mailbox.Name + " - " + mailbox.Address);
+                    smtp.ConnectSSL(sendingMailTxb.Text);
+                    smtp.Configuration.EnableChunking = true;
+                    smtp.UseBestLogin(sendingLoginCmb.Text, sendingPasswordTxb.Text);
+                    smtp.SendMessage(email);
+                    MessageBox.Show("Електронний лист успішно надіслано!");
                 }
 
-                //using (Smtp smtp = new Smtp())
-                //{
-                //    smtp.ConnectSSL(sendingMailTxb.Text);
-                //    smtp.Configuration.EnableChunking = true;
-                //    smtp.UseBestLogin(sendingLoginCmb.Text, sendingPasswordTxb.Text);
-                //    smtp.SendMessage(email);
-                //    MessageBox.Show("Електронний лист успішно надіслано!");
-                //}
+                using (Imap imap = new Imap())
+                {
+                    imap.ConnectSSL(receivingMailTxb.Text);
+                    imap.UseBestLogin(receivingLoginCmb.Text, receivingPasswordTxb.Text);
 
-                //using (Imap imap = new Imap())
-                //{
-                //    imap.ConnectSSL(receivingMailTxb.Text);
-                //    imap.UseBestLogin(receivingLoginCmb.Text, receivingPasswordTxb.Text);
+                    CommonFolders folders = new CommonFolders(imap.GetFolders());
+                    imap.UploadMessage(folders.Sent, email);
 
-                //    CommonFolders folders = new CommonFolders(imap.GetFolders());
-                //    imap.UploadMessage(folders.Sent, email);
-
-                //    imap.Close();
-                //}
+                    imap.Close();
+                }
             }
             catch (IOException ex)
             {
