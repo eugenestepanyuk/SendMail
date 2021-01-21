@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <GeneralInformation>
+    <email>kdocument.kai@ukr.net</email>
+    <senderName>Eugene</senderName>
+    <organization>KAI</organization>
+    <storageLocation>D:\Projects Visual Studio</storageLocation>
+  </GeneralInformation>
+  <ReceivingMail>
+    <receivingMail>imap.ukr.net</receivingMail>
+    <receivingPort>993</receivingPort>
+    <receivingConnProtection>SSL</receivingConnProtection>
+    <receivingLogin>kdocument.kai@ukr.net</receivingLogin>
+    <receivingPassword>DKB2pSzrIcs25QL2</receivingPassword>
+  </ReceivingMail>
+  <SendingMail>
+    <sendingMail>smtp.ukr.net</sendingMail>
+    <maxNumRecipients>15</maxNumRecipients>
+    <sendingPort>465</sendingPort>
+    <sendingConnProtection>SSL</sendingConnProtection>
+    <sendingLogin>kdocument.kai@ukr.net</sendingLogin>
+    <sendingPassword>DKB2pSzrIcs25QL2</sendingPassword>
+  </SendingMail>
+</settings>

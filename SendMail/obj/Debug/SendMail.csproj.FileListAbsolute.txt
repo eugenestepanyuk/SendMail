@@ -10,3 +10,6 @@ D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.Form1.resources
 D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\Mail.dll
 D:\Projects Visual Studio\SendMail\SendMail\bin\Debug\Mail.xml
 D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.csproj.CopyComplete
+D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.CreateMale.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.SettingsMale.resources
+D:\Projects Visual Studio\SendMail\SendMail\obj\Debug\SendMail.GetMale.resources
